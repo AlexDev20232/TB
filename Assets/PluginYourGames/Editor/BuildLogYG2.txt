@@ -1,0 +1,3 @@
+Build path: C:/Users/siriu/Downloads/Steal A Brainrot Build/56
+Build number: 47
+PluginYG version: 2.0042

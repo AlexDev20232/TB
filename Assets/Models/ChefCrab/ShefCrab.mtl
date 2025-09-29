@@ -1,0 +1,44 @@
+newmtl Cube1Mtl
+Material Color
+Ka 0.505432 0.399293 0.201096
+Kd 0.505432 0.399293 0.201096
+Ks 0.0317134 0.0250537 0.0126178 
+
+d 1
+
+Ns 0
+
+newmtl Cube0021Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.396078 0.396078 0.396078 
+
+d 1
+
+Ns 0
+
+map_Ka Cube0021_diff.png
+map_Kd Cube0021_diff.png
+map_d Cube0021_diff.png
+
+newmtl Cube0011Mtl
+Material Color
+Ka 0.659224 0.101145 0.00969633
+Kd 0.659224 0.101145 0.00969633
+Ks 0.0413631 0.00634636 0.000608397 
+
+d 1
+
+Ns 0
+
+newmtl Cube0041Mtl
+Material Color
+Ka 0.0033027 0.0033027 0.0033027
+Kd 0.0033027 0.0033027 0.0033027
+Ks 0.000207228 0.000207228 0.000207228 
+
+d 1
+
+Ns 0
+

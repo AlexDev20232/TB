@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 103e863f5c0347be8a512f431aaf5ec1, type: 3}
+  m_Name: Appearances Database
+  m_EditorClassIdentifier: 
+  data:
+  - {fileID: 11400000, guid: efe3e263408774d45b2a68ae610513b9, type: 2}
+  - {fileID: 11400000, guid: 611dbe79aed090040be13e11c39a98da, type: 2}
+  - {fileID: 11400000, guid: e817a163807b7a048b5c9deed685d9fe, type: 2}
+  - {fileID: 11400000, guid: 3786dbfcf7954314e8923fe878700dfb, type: 2}
+  - {fileID: 11400000, guid: dfb2ce851df33754491d2f1eda04f7df, type: 2}
+  - {fileID: 11400000, guid: 741aec5a594c1ae488de7a8d49d18123, type: 2}
+  - {fileID: 11400000, guid: 16ad9a88cdbf949439e02dae4644c36a, type: 2}
+  - {fileID: 11400000, guid: da4ebda8351279b47b0897774d92f156, type: 2}
+  - {fileID: 0}

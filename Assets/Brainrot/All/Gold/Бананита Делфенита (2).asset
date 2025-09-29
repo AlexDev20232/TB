@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28d4f22d23c1d3f4ba4f165c2cd774f6, type: 3}
+  m_Name: "\u0411\u0430\u043D\u0430\u043D\u0438\u0442\u0430 \u0414\u0435\u043B\u0444\u0435\u043D\u0438\u0442\u0430
+    (2)"
+  m_EditorClassIdentifier: 
+  characterName: "\u0411\u0430\u043D\u0430\u043D\u0438\u0442\u0430 \u0414\u0435\u043B\u0444\u0435\u043D\u0438\u0442\u0430"
+  rarity: 2
+  type: 1
+  characterPrefab: {fileID: 2637430427830898799, guid: c820fed2d86123f448dfec476b7ac173, type: 3}
+  iconPrefab: {fileID: 7903816057685634760, guid: 55efaf8a6d39ef54bb1acc45b60e8c82, type: 3}
+  price: 25000
+  incomePerSecond: 188

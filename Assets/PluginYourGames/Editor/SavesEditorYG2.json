@@ -1,0 +1,84 @@
+{
+    "idSave": 14579,
+    "unlocked": [
+        "Тип Чиз (1)_Standard",
+        "Нубини Пицанини (1)_Standard",
+        "Флурифлура_Standard",
+        "Нубини Пицанини (3)_Diamond",
+        "Флурифлура_Gold"
+    ],
+    "coins": 8272,
+    "placed": [
+        {
+            "slotIndex": 2,
+            "floor": 0,
+            "brainrotKey": "Флурифлура_Gold",
+            "storedIncome": 135,
+            "isEgg": false,
+            "eggKey": "",
+            "eggType": 0,
+            "eggIncubationLeft": 0.0,
+            "weightKg": 0.0
+        },
+        {
+            "slotIndex": 3,
+            "floor": 0,
+            "brainrotKey": "Нубини Пицанини (1)_Standard",
+            "storedIncome": 15,
+            "isEgg": false,
+            "eggKey": "",
+            "eggType": 0,
+            "eggIncubationLeft": 0.0,
+            "weightKg": 2.1600000858306886
+        },
+        {
+            "slotIndex": 4,
+            "floor": 0,
+            "brainrotKey": "Флурифлура_Standard",
+            "storedIncome": 105,
+            "isEgg": false,
+            "eggKey": "",
+            "eggType": 0,
+            "eggIncubationLeft": 0.0,
+            "weightKg": 1.6699999570846558
+        },
+        {
+            "slotIndex": 5,
+            "floor": 0,
+            "brainrotKey": "Нубини Пицанини (1)_Standard",
+            "storedIncome": 15,
+            "isEgg": false,
+            "eggKey": "",
+            "eggType": 0,
+            "eggIncubationLeft": 0.0,
+            "weightKg": 7.480000019073486
+        },
+        {
+            "slotIndex": 7,
+            "floor": 0,
+            "brainrotKey": "Нубини Пицанини (1)_Standard",
+            "storedIncome": 15,
+            "isEgg": false,
+            "eggKey": "",
+            "eggType": 0,
+            "eggIncubationLeft": 0.0,
+            "weightKg": 5.099999904632568
+        }
+    ],
+    "tutorialCompleted": true,
+    "mouseSensitivity": 3.5,
+    "musicVolume": 0.09000000357627869,
+    "sfxVolume": 0.800000011920929,
+    "currentRebirthStage": 0,
+    "rebirthIncomeMultiplier": 0.0,
+    "secondFloorOpened": false,
+    "secondFloorSlotsUnlocked": 0,
+    "thirdFloorOpened": false,
+    "thirdFloorSlotsUnlocked": 0,
+    "vipOwned": false,
+    "luckX3Owned": false,
+    "moneyX2Owned": false,
+    "limitedOfferOwned": false,
+    "starterPackOwned": false,
+    "adsDisabled": false
+}

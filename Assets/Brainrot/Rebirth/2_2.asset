@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e361d55b672a06e41a883f3d79f178e4, type: 3}
+  m_Name: 2_2
+  m_EditorClassIdentifier: 
+  requiredCoins: 1500000
+  requiredBrainrots:
+  - {fileID: 11400000, guid: 200255f0fc3eabf4088e2ccb9d0cc012, type: 2}
+  - {fileID: 11400000, guid: 65099ed30a6cc5d4bab9d6ee577da0f2, type: 2}
+  grantCoins: 5000
+  incomeMultiplierPlus: 1
+  addSlotsFloor2: 1
+  addSlotsFloor3: 0

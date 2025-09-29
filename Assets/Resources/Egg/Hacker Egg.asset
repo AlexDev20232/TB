@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b166715f55d26a4991aaf41835932d4, type: 3}
+  m_Name: Hacker Egg
+  m_EditorClassIdentifier: 
+  EggName: "\u042F\u0439\u0446\u043E \u0425\u0430\u043A\u0435\u0440\u0430"
+  icon: {fileID: 0}
+  rarity: 1
+  hatchSeconds: 30
+  price: 25000
+  TypeParametrs:
+  - type: 0
+    characterPrefab: {fileID: 8595594640766716492, guid: 9d1398edf06b3a34e9abbb239d4880ac, type: 3}
+    EggBrainrot: []
+  - type: 1
+    characterPrefab: {fileID: 8595594640766716492, guid: 47f9f27640bf34c409c091a31600f0b2, type: 3}
+    EggBrainrot: []
+  - type: 2
+    characterPrefab: {fileID: 8595594640766716492, guid: 65e07e870b0e1ec47ade9486fb29ff8d, type: 3}
+    EggBrainrot: []
+  - type: 3
+    characterPrefab: {fileID: 8595594640766716492, guid: 448b13067fd87b441b904e24b68a9ac0, type: 3}
+    EggBrainrot: []

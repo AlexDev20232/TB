@@ -1,0 +1,8 @@
+Authorization v1.022
+Fullscreen v1.0
+InterstitialAdv v1.003
+Localization v1.0011
+Payments v1.01
+RewardedAdv v1.001
+StickyAdv v1.0
+Storage v1.02

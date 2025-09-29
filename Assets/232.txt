@@ -1,0 +1,58 @@
+using UnityEngine;
+
+public class PurhaseDetector : MonoBehaviour
+{
+    public GameObject purchasePromptPrefab;
+    public float yOffset = 0.5f;
+    public float forwardOffset = 0.3f;
+    
+    private GameObject currentPrompt;
+    private Camera mainCam;
+
+    private void Start() => mainCam = Camera.main;
+
+    private void Update()
+    {
+        if (currentPrompt != null)
+        {
+            // Плавный поворот к камере (только по горизонтали)
+            Vector3 lookDirection = mainCam.transform.position - currentPrompt.transform.position;
+            lookDirection.y = 0;
+            currentPrompt.transform.rotation = Quaternion.LookRotation(lookDirection);
+            
+            if (Input.GetKeyDown(KeyCode.E))
+                Debug.Log("Purchase initiated");
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.TryGetComponent<BrainrotController>(out _) && currentPrompt == null)
+        {
+            // Позиция перед ботом (не в центре)
+            Vector3 spawnPosition = other.transform.position + 
+                                  Vector3.up * yOffset + 
+                                  other.transform.forward * forwardOffset;
+            
+            currentPrompt = Instantiate(purchasePromptPrefab, spawnPosition, Quaternion.identity);
+            
+            // Настройка слоя
+            currentPrompt.layer = LayerMask.NameToLayer("UI_Overlay");
+            foreach(Transform child in currentPrompt.transform)
+            {
+                child.gameObject.layer = LayerMask.NameToLayer("UI_Overlay");
+            }
+            
+            currentPrompt.transform.SetParent(other.transform, true);
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.TryGetComponent<BrainrotController>(out _) && currentPrompt != null)
+        {
+            Destroy(currentPrompt);
+            currentPrompt = null;
+        }
+    }
+}
